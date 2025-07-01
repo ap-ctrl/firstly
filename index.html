@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS CARD</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Libertinus+Mono&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Manufacturing+Consent&display=swap");
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        background-color: grey;
+        padding: 45px;
+      }
+      .card {
+        background-color: white;
+        width: 244px;
+        height: 350px;
+        border-radius: 7%;
+      }
+      .Image {
+        padding: 5px;
+      }
+      .Image img {
+        border-radius: 7%;
+      }
+      .content {
+        padding: 7px 13px;
+
+        font-family: "Libertinus Mono", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+      .content p {
+        font-size: 12px;
+        color: gray;
+      }
+      .capsules {
+        padding: 0 38px 0 10px;
+      }
+      .capsules span {
+        border: 1.5px solid gray;
+        padding: 0px 6px;
+        border-radius: 12px;
+        font-size: 12px;
+        font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:lighter;
+  font-style: normal;
+}
+      
+      .button{
+
+text-align: center;
+      }
+      .button button{
+        padding: 4px 7px;
+        border-radius: 9px;
+        background-color: lightblue;
+        color: blue;
+        font-size: 10px;
+        border: none;
+        margin-bottom: 5%;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="Image">
+        <img width="234px"
+        src=https://images.pexels.com/photos/13015753/pexels-photo-13015753.jpeg?_gl=1*11k38dq*_ga*MTI1MzA4NjM4OS4xNzUxMzU3NDEz*_ga_8JE65Q40S6*czE3NTEzNTc0MTIkbzEkZzEkdDE3NTEzNTgxMzUkajM2JGwwJGgw">
+      </div>
+      <div class="capsules">
+        <span> Food</span>
+        <span> Korean </span>
+      </div>
+      <div class="content">
+        <h2>Ramyun</h2>
+        <p>
+          Ramyun spicy noodles broth savory slurp Korea heat egg chopsticks boil
+          comfort flavor steam instant chewy delicious crave bowl soup quick joy
+          warmth satisfaction.
+        </p>
+      </div>
+    <div class="button">
+        <button> Read more
+
+        </button>
+    </div>
+    </div>
+  </body>
 </html>
